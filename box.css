@@ -1,0 +1,63 @@
+body{
+    background-color: papayawhip;
+    background: url("image/pic1.jpg");
+}
+ p{
+    background-color: blueviolet;
+    color: black;
+    padding: 30px;
+    border: 10px solid black;
+    width: calc(100%-40px);
+    height: 20px;
+    text-align: end;
+    box-shadow: 5px 5px 5px 5px grey;
+    cursor: pointer;
+}
+h1,h2,h3{
+    background-color: orange;
+    color: black;
+    padding: 30px;
+    border: 10px solid black;
+    width:50%;
+    height: 50px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    font-size: larger;
+    background-color: deeppink;
+    color: beige;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: brown;
+    color: aliceblue;
+}
+p:hover{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+li:hover{
+    color: black;
+    font-size:larger;
+    background-color: aqua;
+    
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.kuchu{
+    background-color:#ccc;
+}
+.kruthika{
+    color: aliceblue;
+}
+section:not(.kuchu){
+    color: yellow;
+}

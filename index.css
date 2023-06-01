@@ -1,0 +1,24 @@
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+.s h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    background-color: blue;
+}
+#k h2{
+    color:pink ;
+}
+h2+p+h3{
+    color: chartreuse;
+}
+h3~p{
+    color: darkolivegreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section>p{
+    background-color: crimson;
+}
