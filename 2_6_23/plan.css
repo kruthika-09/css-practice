@@ -1,0 +1,110 @@
+
+.first{
+    display: inline-block;
+    background: skyblue;
+    width: 250px;
+    padding: 10px;
+
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    color: dimgrey;
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+    color: blue;
+    font-size:xx-large;
+}
+section{
+    text-align: center;
+}
+.recomended{
+    background: blue;
+}
+.recomended_head{
+    background: white;
+    border-radius: 20px;
+    
+}
+button{
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.para{
+    font-weight: bolder;
+}
+.h2{
+    color: dimgrey;
+}
+.h3{
+    color: aliceblue;
+    font-weight: bolder;
+}
+button:hover{
+    background: white;
+    color: black;
+}
+.div1{
+    background: lightpink;
+    padding: 10px;
+    width: 60%;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.div2{
+    background: pink;
+    width: 60%;
+    float: right;
+    padding: 10px;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.clear{
+    clear: both;
+}
+.div3{
+    background:palevioletred;
+    width: 60%;
+    padding: 10px;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.paragraph{
+    background: white;
+    width: fit-content;
+}
+.div1:hover{
+    background:purple;
+    padding: 10px;
+    width: 60%;
+    border-right: 5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+
+}
+.div2:hover{
+    background:purple;
+    padding: 10px;
+    width: 60%;
+    border-left: 5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+
+}
+.div3:hover{
+    background:purple;
+    padding: 10px;
+    width: 60%;
+    border-right: 5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+
+}
