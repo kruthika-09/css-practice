@@ -1,0 +1,35 @@
+.sec1{
+    width: 50%;
+    height: 528px;
+    border: 3px solid black;
+    background-image: url("image.png");
+    background-size: 30px;
+    background-repeat: repeat;
+    background-position:left bottom;
+   
+}
+.sec2{
+    width: 50%;
+    height: 528px;
+    border: 3px dashed red;
+    background-origin: border-box;/*content-box,padding-box*/
+    background-clip:padding-box;
+    background-image: url("image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left bottom;/*left top,left bottom,etc*/
+    filter:grayscale(50%);
+   
+}
+.sec3{
+    width: 50%;
+    height: 528px;
+    border: 3px solid black;
+    background-image: url("image.png");
+    background-image: radial-gradient(circle farthest-side at  20% 40%,red,blue,pink);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left bottom;/*left top,left bottom,etc*/
+    filter: blur(53%);
+   
+}
