@@ -1,0 +1,30 @@
+.image{
+    width: 150vh;
+    height: 70vh;
+    color: antiquewhite;
+    background-image: url("prabhas.png");
+    filter:brightness(20%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*min-width: 100px;*/
+   /* max-width: 900px;*/
+    float:left;  
+    margin:2rem;
+}
+.clear{
+    clear: both;
+}
+section{
+    text-align: center;
+
+}
+.image2{
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+.image{
+    vertical-align: middle;
+}
+.image3{
+    font-size: 1.5rem;
+}
