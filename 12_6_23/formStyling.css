@@ -1,0 +1,65 @@
+
+ div{
+    margin: 6px;
+}
+input:focus{
+    
+    border: 0.5px solid rgb(33, 138, 33);
+    background-color: lightgreen;
+}
+div{
+    font-weight: bolder;
+}
+input[type="checkbox"]:checked{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(132, 224, 132);
+    border: 1px solid green;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+section{
+    
+    background-color:bisque;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px grey;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+k{
+    color:rgb(21, 89, 115);
+}
+input[type="email"]:invalid{
+    background-color: rgb(241, 108, 108);
+}
+input{
+    width: 300px;
+}
+input[type="checkbox"]{
+    width: 4%;
+}
+button{
+    background-color: rgb(6, 104, 6);
+    border: 0.5px solid rgb(1, 68, 1);
+    padding: 5px;
+    font-weight:bolder ;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+button:hover{
+    background-color:rgb(50, 226, 50);
+    border:1px solid black;
+}
+h1{
+    color:rgb(3, 107, 149);
+    font-weight: bolder;
+}
+
+    
