@@ -1,0 +1,29 @@
+.div1{
+    background: grey;
+    width: 100px;
+    height: 100px;
+}
+.div2{
+    background: pink;
+    width: 100px;
+    height: 100px;
+}
+.div3{
+    background: lightblue;
+    width:100px;
+    height: 100px;
+}
+div{
+    display: inline-block;
+}
+section{
+    
+    background: lightgreen;
+    padding: 20px;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    
+    
+    
+}
