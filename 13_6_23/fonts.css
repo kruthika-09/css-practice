@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+ol{
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+.head{
+    color: blueviolet;
+    font-family: "outfit",sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+   /* font-size: larger;*/
+   font-variant: small-caps;
+   text-decoration: underline wavy black;
+   text-shadow: 1px 1px 5px black;
+}
+/*latter-spacing:2px==>gives space between letters
+white-space:nowrap,pre-wrap,pre-line*/
+ul{
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+dl{
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+dd{
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+li,dl{
+    color:deeppink;
+    font-weight: 700;
+}
+p,dd{
+    color: rgb(36, 128, 164);
+}
+div{
+      margin-left: 550px;
+      
+    }
