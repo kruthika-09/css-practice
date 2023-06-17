@@ -1,0 +1,73 @@
+.div1{
+    background: grey;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    align-self: flex-end;
+    
+}
+.div2{
+    background: pink;
+    border: 5px solid black;
+    height: 100px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    align-self: flex-start;
+}
+.div3{
+    background: lightblue;
+    width:200px;
+    height: 200px;
+    border: 5px solid black;
+    font-size: 50px;
+    text-align: center;
+    order: -1;
+    align-self: flex-start;
+}
+.div4{
+    background: grey;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    order: 1;
+    align-self: flex-end;
+    /*flex-grow: 3;*/
+/*flex-shrink: 0;*/
+}
+.div5{
+    background: pink;
+    border: 5px solid black;
+    height: 100px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    order: -2;
+    align-self: flex-end;
+   /*flex-basis: 200px;overides the width and height properties*/
+    
+}
+.subsec{
+    
+    background: lightgreen;
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;/*center flex-start flex-end*/
+    justify-content: center;
+    height: 400px;
+    /*align-content:space-between;*/    
+}
+.mainsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
