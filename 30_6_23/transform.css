@@ -1,0 +1,28 @@
+div{
+    width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 20px;
+  position: absolute;
+  color: #FFFFFF;
+  font-family: Arial;
+  text-align: center;
+  
+ /* perspective: 100px;
+ transform-style: preserve-3d;
+ backface-visibility:hidden; */
+ 
+  
+}
+.div1 {
+    background-color: #213343;
+    transform: skewY(20deg) scaleX(1);
+  }
+  
+.div2 {
+    transform:rotateZ(20deg) translate(100px, 75px);
+    
+   /* perspective-origin: right;*/
+    background-color: #FF5C35;
+   opacity: 0.8;
+  }
