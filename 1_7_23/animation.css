@@ -1,0 +1,35 @@
+@keyframes slide {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    50% {
+      left: 244px;
+      top: 100px;
+    }
+    100% {
+      left: 488px;
+      top: 0;
+    }
+  }
+  .stage {
+    height: 150px;
+    position: relative;
+  }
+  .ball {
+      height: 50px;
+      position: absolute;
+      width: 50px;
+      background-color: blue;
+  }
+  .stage:hover .ball {
+    animation-name: slide;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-fill-mode:both;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: play;
+  /*animation: slide 2s ease-in-out .5s infinite alternate;*/
+  }
