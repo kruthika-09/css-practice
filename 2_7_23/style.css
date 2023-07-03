@@ -1,0 +1,78 @@
+.sec1, .sec2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.div1 {
+  background: orange;
+  color: black;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+  margin: 10px;
+  margin-top: 200px;
+}
+
+.div2 {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+  margin: 10px;
+  margin-top: 200px;
+}
+
+.div3 {
+  background: orange;
+  color: white;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+  margin: 10px;
+  margin-top: 200px;
+}
+
+.div4 {
+  background: orange;
+  color: black;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+  margin: 10px;
+  margin-top: 200px;
+}
+
+.div5 {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+  margin: 10px;
+  margin-top: 200px;
+}
+
+button {
+  background-color: blue;
+  color: pink;
+  padding: 4px;
+  border: 2px solid black;
+}
+button:hover {
+  background-color: pink;
+  color: blue;
+  border: 2px solid lightblue;
+}/*# sourceMappingURL=style.css.map */

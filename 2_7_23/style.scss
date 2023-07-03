@@ -1,0 +1,58 @@
+$primary_color:orange ;
+$secondary_color:black;
+$third_color:white;
+.sec1,.sec2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    
+
+}
+@mixin box(){
+    border: 2px solid black;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+    margin: 10px;
+    margin-top: 200px;
+}
+.div1{
+    background: $primary_color;
+    color: $secondary_color;
+    @include box();
+}
+.div2{
+    background: $secondary_color;
+    color: $third_color;
+    @include box();
+}
+.div3{
+    background: $primary_color;
+    color: $third_color;
+    @include box();
+}
+.div4{
+    background: $primary_color;
+    color: $secondary_color;
+    @include box();
+}
+.div5{
+    background: $secondary_color;
+    color: $third_color;
+    @include box();
+}
+button{
+    background-color: blue;
+    color:pink;
+    padding:4px;
+    border: 2px solid black;
+    &:hover{
+        background-color: pink;
+        color: blue;
+        border:2px solid lightblue
+
+    }
+
+}
