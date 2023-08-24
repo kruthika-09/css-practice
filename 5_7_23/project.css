@@ -1,0 +1,67 @@
+.img{
+    width:50px;
+    height: 40px;
+}
+section{
+   text-align: center;
+}
+a{
+   text-decoration: none;
+   color:black;
+   margin: 80px;
+   position:static;
+   font-size: 15px;
+  top: 50px;
+ 
+}
+.img1{
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.img3{
+    width: 300px;
+    height: 400px;
+    margin-top: 5px;
+}
+.images{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px; 
+    background-color: rgb(226, 223, 223); 
+}
+.title{
+    font-size: 30px;
+    color:  navy;
+    padding: 0%;
+}
+button{
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    padding:5px;
+    margin-bottom:10px ;
+    border:2px solid black;
+}
+button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    padding:5px;
+}
+body{
+    border: 3px solid rgb(11, 29, 11);
+}
+p{
+    font-weight: bolder;
+}
